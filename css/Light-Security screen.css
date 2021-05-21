@@ -1,0 +1,621 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* https://www.figma.com/file/fMKJommx7Vg5rWqv4tbjr6/banking-app-free-ui-kit-for-figma?node-id=31%3A1661 */
+/* all 两个问题问题问题问题问题问题 */
+.Light-Security-screen {
+  position: relative;
+  width: calc(375rem / 37.5);
+  height: calc(812rem / 37.5);
+  overflow: hidden;
+  /* Basic / Light BG */
+  background: #F5F5F5;
+}
+/* 头 */
+.Header {
+  position: absolute;
+  width: calc(375rem / 37.5);
+  height: calc(64rem / 37.5);
+  left: 0px;
+  top: calc(44rem / 37.5);
+}
+/* 头文字 */
+.Header .headerText {
+  position: absolute;
+  width: calc(157rem / 37.5);
+  height: calc(24rem / 37.5);
+  left: calc(109rem / 37.5);
+  top: calc(20rem / 37.5);
+  /* 20 / SemiBold */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(20rem / 37.5);
+  line-height: calc(24rem / 37.5);
+  /* identical to box height, or 120% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+/* 密码 */
+.passcode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: calc(225rem / 37.5);
+  height: calc(74rem / 37.5);
+  left: calc(75rem / 37.5);
+  top: calc(156rem / 37.5);
+  box-sizing: border-box;
+}
+/* 密码文字        问题问题 问题问题 问题问题 问题问题 */
+.passcode .passcodeText {
+  position: static;
+  width: calc(164rem / 37.5);
+  height: calc(20rem / 37.5);
+  left: calc(30.5rem / 37.5);
+  top: 0px;
+  /* 16 / Regular */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(16rem / 37.5);
+  line-height: calc(20rem / 37.5);
+  /* identical to box height, or 125% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+/* 密码显示    套娃的其他处理方式*/
+.passcode .password {
+  position: absolute;
+  width: calc(225rem / 37.5);
+  height: calc(44rem / 37.5);
+  left: 0px;
+  top: calc(30rem / 37.5);
+}
+/* 密码显示小盒子1 */
+.passcode .password .password1 {
+  position: absolute;
+  width: calc(48rem / 37.5);
+  height: calc(44rem / 37.5);
+  left: 0px;
+  top: 0px;
+}
+.passcode .password .password1 .password1Box {
+  position: absolute;
+  width: calc(12rem / 37.5);
+  height: calc(12rem / 37.5);
+  left: calc(18rem / 37.5);
+  top: calc(16rem / 37.5);
+  /* Color / Green */
+  border-radius: 50%;
+  background: #32D74B;
+}
+/* 密码显示小盒子2 */
+.passcode .password .password2 {
+  position: absolute;
+  width: calc(48rem / 37.5);
+  height: calc(44rem / 37.5);
+  left: calc(59rem / 37.5);
+  top: 0px;
+}
+.passcode .password .password2 .password2Box {
+  position: absolute;
+  width: calc(12rem / 37.5);
+  height: calc(12rem / 37.5);
+  left: calc(18rem / 37.5);
+  top: calc(16rem / 37.5);
+  /* Color / Green */
+  border-radius: 50%;
+  background: #32D74B;
+}
+/* 密码显示小盒子3 */
+.passcode .password .password3 {
+  position: absolute;
+  width: calc(48rem / 37.5);
+  height: calc(44rem / 37.5);
+  left: calc(118rem / 37.5);
+  top: 0px;
+}
+.passcode .password .password3 .password3Box {
+  position: absolute;
+  width: calc(12rem / 37.5);
+  height: calc(12rem / 37.5);
+  left: calc(18rem / 37.5);
+  top: calc(16rem / 37.5);
+  /* Color / Green */
+  border-radius: 50%;
+  background: #32D74B;
+}
+/* 密码显示小盒子4 */
+.passcode .password .password4 {
+  position: absolute;
+  width: calc(48rem / 37.5);
+  height: calc(44rem / 37.5);
+  left: calc(177rem / 37.5);
+  top: 0px;
+}
+.passcode .password .password4 .password4Box {
+  position: absolute;
+  width: calc(12rem / 37.5);
+  height: calc(12rem / 37.5);
+  left: calc(18rem / 37.5);
+  top: calc(16rem / 37.5);
+  /* Color / Green */
+  border-radius: 50%;
+  background: #32D74B;
+}
+/* 键盘 */
+.numpad {
+  position: absolute;
+  width: calc(311rem / 37.5);
+  height: calc(348rem / 37.5);
+  left: calc(32rem / 37.5);
+  top: calc(278rem / 37.5);
+}
+.numpad .key1 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+}
+.numpad .key1 .key1Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key1 .key1Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key2 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: calc(118rem / 37.5);
+  top: 0px;
+}
+.numpad .key2 .key2Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key2 .key2Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key3 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: calc(236rem / 37.5);
+  top: 0px;
+}
+.numpad .key3 .key3Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key3 .key3Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key4 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: calc(91rem / 37.5);
+}
+.numpad .key4 .key4Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key4 .key4Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key5 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: calc(118rem / 37.5);
+  top: calc(91rem / 37.5);
+}
+.numpad .key5 .key5Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key5 .key5Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key6 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: calc(236rem / 37.5);
+  top: calc(91rem / 37.5);
+}
+.numpad .key6 .key6Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key6 .key6Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key7 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: calc(182rem / 37.5);
+}
+.numpad .key7 .key7Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key7 .key7Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key8 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: calc(118rem / 37.5);
+  top: calc(182rem / 37.5);
+}
+.numpad .key8 .key8Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key8 .key8Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key9 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: calc(236rem / 37.5);
+  top: calc(182rem / 37.5);
+}
+.numpad .key9 .key9Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key9 .key9Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.numpad .key0 {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: calc(118rem / 37.5);
+  top: calc(273rem / 37.5);
+}
+.numpad .key0 .key0Text {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(36rem / 37.5);
+  left: 0px;
+  top: calc(19.5rem / 37.5);
+  /* 32 / Light */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(32rem / 37.5);
+  line-height: calc(36rem / 37.5);
+  /* identical to box height, or 112% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Basic/Black */
+  color: #000000;
+}
+.numpad .key0 .key0Box {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.id {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: calc(273rem / 37.5);
+}
+.id .idBox {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.id .idBox .idImg {
+  position: absolute;
+  width: calc(45rem / 37.5);
+  height: calc(45rem / 37.5);
+  left: calc(15rem / 37.5);
+  top: calc(15rem / 37.5);
+}
+.delete {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: calc(236rem / 37.5);
+  top: calc(273rem / 37.5);
+}
+.delete .deleteBox {
+  position: absolute;
+  width: calc(75rem / 37.5);
+  height: calc(75rem / 37.5);
+  left: 0px;
+  top: 0px;
+  /* Basic / White */
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.delete .deleteBox .deleteImg {
+  position: absolute;
+  width: calc(24rem / 37.5);
+  height: calc(24rem / 37.5);
+  left: calc(24rem / 37.5);
+  top: calc(25rem / 37.5);
+}
+/* 尾巴 */
+.trail {
+  position: absolute;
+  width: calc(375rem / 37.5);
+  height: calc(64rem / 37.5);
+  left: 0px;
+  top: calc(714rem / 37.5);
+}
+.trail .trailText {
+  position: absolute;
+  width: calc(143rem / 37.5);
+  height: calc(20rem / 37.5);
+  left: calc(116rem / 37.5);
+  top: calc(22rem / 37.5);
+  /* 16 / Regular */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(16rem / 37.5);
+  line-height: calc(20rem / 37.5);
+  /* identical to box height, or 125% */
+  text-align: center;
+  font-feature-settings: 'ss04' on;
+  /* Gray / 1 */
+  color: #8E8E93;
+}
+.bg {
+  position: absolute;
+  pointer-events: none;
+  width: calc(595rem / 37.5);
+  height: calc(956rem / 37.5);
+  left: calc(-135rem / 37.5);
+  top: calc(-9rem / 37.5);
+}
+.bg1 {
+  position: absolute;
+  width: calc(170rem / 37.5);
+  height: calc(170rem / 37.5);
+  left: calc(50rem / 37.5);
+  top: 0px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 214, 10, 0.3) 0%, rgba(255, 214, 10, 0) 100%);
+}
+.bg2 {
+  position: absolute;
+  width: calc(170rem / 37.5);
+  height: calc(170rem / 37.5);
+  left: calc(425rem / 37.5);
+  top: calc(557rem / 37.5);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(50, 215, 75, 0.3) 0%, rgba(50, 215, 75, 0) 100%);
+}
+.bg3 {
+  position: absolute;
+  width: calc(270rem / 37.5);
+  height: calc(270rem / 37.5);
+  left: 0px;
+  top: calc(676rem / 37.5);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 55, 95, 0.3) 0%, rgba(255, 55, 95, 0) 100%);
+}
+.changer {
+  background: #8E8E93 !important;
+  opacity: 0.2;
+}

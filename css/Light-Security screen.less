@@ -1,0 +1,755 @@
+@html-size: 37.5;
+// @media screen and (min-width: 750px) {
+//     html {
+//       font-size: 75px !important ;
+//     }
+//   }
+*{
+    padding: 0;
+    margin: 0;
+}
+/* https://www.figma.com/file/fMKJommx7Vg5rWqv4tbjr6/banking-app-free-ui-kit-for-figma?node-id=31%3A1661 */
+
+/* all 两个问题问题问题问题问题问题 */
+.Light-Security-screen{
+    
+    position: relative;
+    width: calc(375rem / @html-size);
+    height: calc(812rem / @html-size);
+    overflow: hidden;
+    /* Basic / Light BG */
+    background: #F5F5F5;
+
+
+
+}
+/* 头 */
+.Header{
+    position: absolute;
+width: calc(375rem / @html-size);
+height: calc(64rem / @html-size);
+left: 0px;
+top: calc(44rem / @html-size);
+}
+/* 头文字 */
+.Header .headerText{
+    
+    position: absolute;
+width: calc(157rem / @html-size);
+height: calc(24rem / @html-size);
+left: calc(109rem / @html-size);
+top: calc(20rem / @html-size);
+
+/* 20 / SemiBold */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: calc(20rem / @html-size);    
+line-height: calc(24rem / @html-size);
+/* identical to box height, or 120% */
+
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+/* Basic/Black */
+
+color: #000000;
+}
+
+/* 密码 */
+.passcode{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: calc(225rem / @html-size);
+height: calc(74rem / @html-size);
+left: calc(75rem / @html-size);
+top: calc(156rem / @html-size);
+box-sizing: border-box;
+}
+/* 密码文字        问题问题 问题问题 问题问题 问题问题 */
+.passcode .passcodeText{
+    
+    position: static;
+width: calc(164rem / @html-size);
+height: calc(20rem / @html-size);
+left: calc(30.5rem / @html-size);
+top: 0px;
+
+/* 16 / Regular */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: calc(16rem / @html-size);
+line-height: calc(20rem / @html-size);
+/* identical to box height, or 125% */
+
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+/* Basic/Black */
+
+color: #000000;
+
+}
+/* 密码显示    套娃的其他处理方式*/
+.passcode .password{
+    position: absolute;
+    width: calc(225rem / @html-size);
+    height: calc(44rem / @html-size);
+    left: 0px;
+    top: calc(30rem / @html-size);
+
+}
+/* 密码显示小盒子1 */
+.passcode .password .password1{
+    position: absolute;
+    width: calc(48rem / @html-size);
+    height: calc(44rem / @html-size);
+    left: 0px;
+    top: 0px;
+
+    
+}
+.passcode .password .password1 .password1Box{
+    position: absolute;
+width: calc(12rem / @html-size);
+height: calc(12rem / @html-size);
+left: calc(18rem / @html-size);
+top: calc(16rem / @html-size);
+
+/* Color / Green */
+border-radius: 50%;
+background: #32D74B;
+}
+
+/* 密码显示小盒子2 */
+.passcode .password .password2{
+    
+    position: absolute;
+    width: calc(48rem / @html-size);
+    height: calc(44rem / @html-size);
+    left: calc(59rem / @html-size);
+    top: 0px;
+
+
+}
+.passcode .password .password2 .password2Box{
+    position: absolute;
+width: calc(12rem / @html-size);
+height: calc(12rem / @html-size);
+left: calc(18rem / @html-size);
+top: calc(16rem / @html-size);
+
+/* Color / Green */
+border-radius: 50%;
+background: #32D74B;
+}
+
+/* 密码显示小盒子3 */
+.passcode .password .password3{
+    position: absolute;
+    width: calc(48rem / @html-size);
+    height: calc(44rem / @html-size);
+    left: calc(118rem / @html-size);
+    top: 0px;
+
+}
+.passcode .password .password3 .password3Box{
+    position: absolute;
+width: calc(12rem / @html-size);
+height: calc(12rem / @html-size);
+left: calc(18rem / @html-size);
+top: calc(16rem / @html-size);
+
+/* Color / Green */
+border-radius: 50%;
+background: #32D74B;
+}
+
+/* 密码显示小盒子4 */
+.passcode .password .password4{
+    position: absolute;
+    width: calc(48rem / @html-size);
+    height: calc(44rem / @html-size);
+    left: calc(177rem / @html-size);
+    top: 0px;
+
+}
+.passcode .password .password4 .password4Box{
+    position: absolute;
+width: calc(12rem / @html-size);
+height: calc(12rem / @html-size);
+left: calc(18rem / @html-size);
+top: calc(16rem / @html-size);
+
+/* Color / Green */
+border-radius: 50%;
+background: #32D74B;
+}
+
+/* 键盘 */
+.numpad{
+    position: absolute;
+width: calc(311rem / @html-size);
+height: calc(348rem / @html-size);
+left: calc(32rem / @html-size);
+top: calc(278rem / @html-size);
+}
+// 键盘1
+.numpad .key1{
+position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: 0px;
+top: 0px;
+}
+.numpad .key1 .key1Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key1 .key1Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+// 键盘2
+.numpad .key2{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: calc(118rem / @html-size);
+top: 0px;
+}
+.numpad .key2 .key2Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key2 .key2Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// 键盘3
+.numpad .key3{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: calc(236rem / @html-size);
+top: 0px;
+}
+.numpad .key3 .key3Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key3 .key3Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// 键盘4
+.numpad .key4{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: 0px;
+top: calc(91rem / @html-size);
+}
+.numpad .key4 .key4Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key4 .key4Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// 键盘5
+.numpad .key5{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: calc(118rem / @html-size);
+top: calc(91rem / @html-size);
+}
+.numpad .key5 .key5Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key5 .key5Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// 键盘6
+.numpad .key6{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: calc(236rem / @html-size);
+top: calc(91rem / @html-size);
+
+}
+.numpad .key6 .key6Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key6 .key6Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// 键盘7
+.numpad .key7{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: 0px;
+top: calc(182rem / @html-size);
+}
+.numpad .key7 .key7Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key7 .key7Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// 键盘8
+.numpad .key8{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: calc(118rem / @html-size);
+top: calc(182rem / @html-size);
+}
+.numpad .key8 .key8Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key8 .key8Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// 键盘9
+.numpad .key9{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: calc(236rem / @html-size);
+top: calc(182rem / @html-size);
+}
+.numpad .key9 .key9Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key9 .key9Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// 键盘0
+.numpad .key0{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: calc(118rem / @html-size);
+top: calc(273rem / @html-size);
+}
+.numpad .key0 .key0Text{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(36rem / @html-size);
+    left: 0px;
+    top: calc(19.5rem / @html-size);
+    
+    /* 32 / Light */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(32rem / @html-size);
+    line-height: calc(36rem / @html-size);
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    font-feature-settings: 'ss04' on;
+    
+    /* Basic/Black */
+    
+    color: #000000;
+}
+.numpad .key0 .key0Box{
+    position: absolute;
+    width: calc(75rem / @html-size);
+    height: calc(75rem / @html-size);
+    left: 0px;
+    top: 0px;
+    
+    /* Basic / White */
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+// id
+.id{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: 0px;
+top: calc(273rem / @html-size);
+}
+.id .idBox{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: 0px;
+top: 0px;
+
+/* Basic / White */
+border-radius: 50%;
+background: #FFFFFF;
+}
+.id .idBox .idImg{
+    position: absolute;
+    width: calc(45rem / @html-size);
+    height: calc(45rem / @html-size);
+    left: calc(15rem / @html-size);
+    top: calc(15rem / @html-size);
+
+}
+//删除
+.delete{
+position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: calc(236rem / @html-size);
+top: calc(273rem / @html-size);
+}
+.delete .deleteBox{
+    position: absolute;
+width: calc(75rem / @html-size);
+height: calc(75rem / @html-size);
+left: 0px;
+top: 0px;
+
+/* Basic / White */
+border-radius: 50%;
+background: #FFFFFF;
+}
+.delete .deleteBox .deleteImg{
+    position: absolute;
+    width: calc(24rem / @html-size);
+    height: calc(24rem / @html-size);
+    left: calc(24rem / @html-size);
+    top: calc(25rem / @html-size);
+}
+
+/* 尾巴 */
+.trail{
+    position: absolute;
+    width: calc(375rem / @html-size);
+    height: calc(64rem / @html-size);
+    left: 0px;
+    top: calc(714rem / @html-size);
+}
+// 尾巴字
+.trail .trailText{
+    position: absolute;
+width: calc(143rem / @html-size);
+height: calc(20rem / @html-size);
+left: calc(116rem / @html-size);
+top: calc(22rem / @html-size);
+
+/* 16 / Regular */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: calc(16rem / @html-size);
+line-height: calc(20rem / @html-size);
+/* identical to box height, or 125% */
+
+text-align: center;
+font-feature-settings: 'ss04' on;
+
+/* Gray / 1 */
+
+color: #8E8E93;
+}
+
+// 背景
+.bg{
+    position: absolute;
+    // z-index: 0;                    //调整z轴
+    pointer-events: none;          //鼠标穿透
+width: calc(595rem / @html-size);
+height: calc(956rem / @html-size);
+left: calc(-135rem / @html-size);
+top: calc(-9rem / @html-size);
+}
+.bg1{
+    position: absolute;
+    width: calc(170rem / @html-size);
+    height: calc(170rem / @html-size);
+    left: calc(50rem / @html-size);
+    top: 0px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 214, 10, 0.3) 0%, rgba(255, 214, 10, 0) 100%);
+}
+.bg2{
+    position: absolute;
+    width: calc(170rem / @html-size);
+    height: calc(170rem / @html-size);
+    left: calc(425rem / @html-size);
+    top: calc(557rem / @html-size);
+    
+    background: radial-gradient(50% 50% at 50% 50%, rgba(50, 215, 75, 0.3) 0%, rgba(50, 215, 75, 0) 100%);
+}
+.bg3{
+    position: absolute;
+    width: calc(270rem / @html-size);
+    height: calc(270rem / @html-size);
+    left: 0px;
+    top: calc(676rem / @html-size);
+    
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 55, 95, 0.3) 0%, rgba(255, 55, 95, 0) 100%);
+}
+
+// 变
+.changer{
+background: #8E8E93 !important ;
+opacity: 0.2;
+}

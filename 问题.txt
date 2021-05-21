@@ -1,0 +1,18 @@
+不用媒体查询
+
+图片不行
+
+svg如何控制path大小      参数又有问题？？？
+
+不用100vh适配高度 （计算总高度？）
+
+多重条件合并
+
+less算不出来？
+
+onclick失效
+    z-index: 0;                    //调整z轴
+    pointer-events: none;          //鼠标穿透
+
+
+clearInterval(Timer)      //清除定时器，防止定时器迭代
