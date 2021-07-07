@@ -11,8 +11,8 @@ svg如何控制path大小      参数又有问题？？？
 less算不出来？
 
 onclick失效
-    z-index: 0;                    //调整z轴
-    pointer-events: none;          //鼠标穿透
+z-index: 0;                    //调整z轴
+pointer-events: none;          //鼠标穿透
 
 
 clearInterval(Timer)      //清除定时器，防止定时器迭代
